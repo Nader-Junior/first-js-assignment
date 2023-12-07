@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row bg-light " >
+            <!-- Question 01 -->
+            <div class="Q1 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>01</h2>
+                            <h3>a program that allow to user enter number then print it</h3>
+                            <label for="frist-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="frist-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn1()">click</button>
+                        <h2 id="output"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 02 -->
+
+
+            <div class="Q2">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>02</h2>
+                            <h3>a program that take number from user then print yes if that number can divide by 3
+                                and 4 otherwise print no</h3>
+                            <label for="user-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn2()">click</button>
+                        <h2 id="output2"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 03 -->
+
+            <div class="Q3 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>03</h2>
+                            <h3>a program that allows the user to insert 2 integers then print the max</h3>
+                            <label for="user3-input" class="form-label">frist number </label>
+                            <input type="text" class="form-control" id="user3-input">
+                            <label for="user4-input" class="form-label">secand number</label>
+                            <input type="text" class="form-control" id="user4-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn3()">click</button>
+                        <h2 id="output3"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 04 -->
+
+            <div class="Q4">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>04</h2>
+                            <h3>a program that allows the user to insert an integer then print negative if it is
+                                negative number otherwise print positive.</h3>
+                            <label for="user5-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user5-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn4()">click</button>
+                        <h2 id="output4"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 05 -->
+
+
+
+            <div class="Q5 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>05</h2>
+                            <h3>Write a program that take 3 integers from user then print the max element
+                                and the min element</h3>
+                            <label for="user6-input" class="form-label">input 1</label>
+                            <input type="text" class="form-control" id="user6-input">
+                            <label for="user7-input" class="form-label">input 2</label>
+                            <input type="text" class="form-control" id="user7-input">
+                            <label for="user8-input" class="form-label">input 3</label>
+                            <input type="text" class="form-control" id="user8-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn5()">click</button>
+                        <p>max element=</p>
+                        <h2 id="output5"></h2>
+                        <p>min element=</p>
+                        <h2 id="output6"></h2>
+                    </form>
+                </div>
+            </div>
+            <!-- Question 06 -->
+
+
+            <div class="Q6">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>06</h2>
+                            <h3>a program that allows the user to insert integer number then
+                                check If a number is oven or odd</h3>
+                            <label for="user9-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user9-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn6()">click</button>
+                        <h2 id="output7"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 07 -->
+
+
+            <div class="Q7 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>07</h2>
+                            <h3>a program that take character from user then if it is vowel chars (a,e,I,o,u)
+                                then print vowel otherwise print consonant</h3>
+                            <label for="user10-input" class="form-label">insert input</label>
+                            <input type="text" class="form-control" id="user10-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn7()">click</button>
+                        <h2 id="output8"></h2>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- Question 08 -->
+
+
+            <div class="Q8">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>08</h2>
+                            <h3>a program that allows user to insert integer then print allnumbers between 1 to
+                                that’s number</h3>
+                            <label for="user11-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user11-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn8()">click</button>
+                        <h2 id="output9"></h2>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- Question 09 -->
+
+
+
+            <div class="Q9 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>09</h2>
+                            <h3>a program that allows user to insert integer then print a multiplication table up to 12
+                            </h3>
+                            <label for="user12-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user12-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn9()">click</button>
+                        <h2 id="output10"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+
+
+            <div class="Q10">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>10</h2>
+                            <h3>a program that allows to user to insert number then print all even numbers
+                                between 1 to this number </h3>
+                            <label for="user13-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user13-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn10()">click</button>
+                        <h2 id="output11"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 11 -->
+
+
+            <div class="Q11 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>11</h2>
+                            <h3>a program that take two integers then print the power</h3>
+                            <label for="user14-input" class="form-label">frist number </label>
+                            <input type="text" class="form-control" id="user14-input">
+                            <label for="user15-input" class="form-label">secand number</label>
+                            <input type="text" class="form-control" id="user15-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn11()">click</button>
+                        <h2 id="output12"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 12 -->
+
+
+            <div class="Q12">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>12</h2>
+                            <h3>a program to enter marks of five subjects and calculate total, average and
+                                percentage</h3>
+                            <label for="user16-input" class="form-label">input 1</label>
+                            <input type="text" class="form-control" id="user16-input">
+                            <label for="user17-input" class="form-label">input 2</label>
+                            <input type="text" class="form-control" id="user17-input">
+                            <label for="user18-input" class="form-label">input 3</label>
+                            <input type="text" class="form-control" id="user18-input">
+                            <label for="user19-input" class="form-label">input 4</label>
+                            <input type="text" class="form-control" id="user19-input">
+                            <label for="user20-input" class="form-label">input 5</label>
+                            <input type="text" class="form-control" id="user20-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn12()">click</button>
+                        <p>total marks=</p>
+                        <h2 id="output13"></h2>
+                        <p>average marks=</p>
+                        <h2 id="output14"></h2>
+                        <p>percentage=</p>
+                        <h2 id="output15"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+
+            <div class="Q13 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>13</h2>
+                            <h3>a program to input month number and print number of days in that
+                                month</h3>
+                            <label for="user21-input" class="form-label">insert number</label>
+                            <input type="text" class="form-control" id="user21-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn13()">click</button>
+                        <p>days in month: </p>
+                        <h2 id="output16"></h2>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- Question 14 -->
+
+            <div class="Q14">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>14</h2>
+                            <h3>a program to input marks of five subjects Physics, Chemistry, Biology,
+                                Mathematics and Computer, Find percentage and grade </h3>
+                            <label for="user22-input" class="form-label">physics</label>
+                            <input type="text" class="form-control" id="user22-input">
+                            <label for="user23-input" class="form-label">chemistry</label>
+                            <input type="text" class="form-control" id="user23-input">
+                            <label for="user24-input" class="form-label">biology</label>
+                            <input type="text" class="form-control" id="user24-input">
+                            <label for="user25-input" class="form-label">mathematics</label>
+                            <input type="text" class="form-control" id="user25-input">
+                            <label for="user26-input" class="form-label">computer</label>
+                            <input type="text" class="form-control" id="user26-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn14()">click</button>
+                        <p>percentage=</p>
+                        <h2 id="output17"></h2>
+                        <p>grade=</p>
+                        <h2 id="output18"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 15 -->
+
+
+            <div class="Q15 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>15</h2>
+                            <h3>a program to print total number of days in month</h3>
+                            <label for="user27-input" class="form-label">insert month</label>
+                            <input type="text" class="form-control" id="user27-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn15()">click</button>
+                        <p>days in month: </p>
+                        <h2 id="output19"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 16 -->
+
+
+            <div class="Q16 ">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>16</h2>
+                            <h3>a program to check whether an alphabet is vowel or consonant </h3>
+                            <label for="user28-input" class="form-label">insert input</label>
+                            <input type="text" class="form-control" id="user28-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn16()">click</button>
+                        <h2 id="output20"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 17 -->
+
+
+            <div class="Q17 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>17</h2>
+                            <h3> a program to find maximum between two numbers</h3>
+                            <label for="user29-input" class="form-label">frist number </label>
+                            <input type="text" class="form-control" id="user29-input">
+                            <label for="user30-input" class="form-label">secand number</label>
+                            <input type="text" class="form-control" id="user30-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn17()">click</button>
+                        <h2 id="output21"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 18 -->
+
+            <div class="Q18 ">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>18</h2>
+                            <h3> a program to check whether a number is even or odd</h3>
+                            <label for="user31-input" class="form-label">insert input</label>
+                            <input type="text" class="form-control" id="user31-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn18()">click</button>
+                        <h2 id="output22"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 19 -->
+
+            <div class="Q19 bg-info">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>19</h2>
+                            <h3>a program to check whether a number is positive or negative or zero</h3>
+                            <label for="user32-input" class="form-label">insert input</label>
+                            <input type="text" class="form-control" id="user32-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn19()">click</button>
+                        <h2 id="output23"></h2>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Question 20 -->
+
+
+            <div class="Q20 ">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <h2>20</h2>
+                            <h3>a program to create Simple Calculator</h3>
+                            <label for="user33-input" class="form-label">frist number </label>
+                            <input type="text" class="form-control" id="user33-input">
+                            <label for="user34-input" class="form-label">sign</label>
+                            <input type="text" class="form-control" id="user34-input">
+                            <label for="user35-input" class="form-label">secand number</label>
+                            <input type="text" class="form-control" id="user35-input">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="fn20()">click</button>
+                        <h2 id="output24"></h2>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
